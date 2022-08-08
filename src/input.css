@@ -29,3 +29,13 @@
   padding-bottom: 200px;
   clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 25px), 0% 100%);
 }
+
+.colapseHide {
+  @apply h-0 opacity-0;
+}
+.navHide {
+  @apply h-0 w-28 overflow-hidden;
+}
+.iconHide {
+  @apply -z-10 opacity-0;
+}
