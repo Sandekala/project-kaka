@@ -6,8 +6,5 @@
   },
   "scripts": {
     "start": "npx tailwindcss -i ./src/input.css -o ./public/css/style.css --watch"
-  },
-  "dependencies": {
-    "aos": "^2.3.4"
   }
 }
